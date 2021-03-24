@@ -1,4 +1,5 @@
 ﻿using DataStructures.Algorithms.DataStructures;
+using DataStructures.Data_Structures;
 using System;
 
 namespace DataStructures.Algorithms
@@ -28,6 +29,15 @@ namespace DataStructures.Algorithms
             //queue.Dequeue();
             //queue.Print();
             //Console.WriteLine(queue.Size);
+
+            //Linked List usage
+            LinkedList<int> linkedList = new LinkedList<int>(2);
+            linkedList.InsertAtEnd(5);
+            Console.WriteLine(linkedList.Size);
+            linkedList.InsertAt(0, 3);
+            linkedList.InsertAt(0, 8);
+            linkedList.Print();
+            Console.WriteLine(linkedList.Size);
 
         }
     }
